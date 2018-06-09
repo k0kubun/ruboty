@@ -1,4 +1,4 @@
-# Ruboty
+# Ruboty [![Build Status](https://travis-ci.org/k0kubun/ruboty.svg?branch=master)](https://travis-ci.org/k0kubun/ruboty)
 
 My configuration for [Ruboty](https://github.com/r7kamura/ruboty).
 
@@ -10,7 +10,7 @@ SLACK_TOKEN=xxx bundle exec ruboty
 
 ## Update Travis credentials
 
-These credentials are not available on fork repositories.
+These credentials are not available on fork repositories or pull requests.
 
 ```
 bundle exec travis login --org
