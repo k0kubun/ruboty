@@ -1,6 +1,6 @@
-# ruboty
+# Ruboty
 
-My configuration for [ruboty](https://github.com/r7kamura/ruboty).
+My configuration for [Ruboty](https://github.com/r7kamura/ruboty).
 
 ## Run
 
