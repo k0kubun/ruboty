@@ -1,0 +1,6 @@
+language: ruby
+rvm:
+ - ruby-head
+sudo: required
+services:
+  - docker
