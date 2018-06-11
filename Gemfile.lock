@@ -93,8 +93,6 @@ GEM
     ruboty-world_clock (0.1.0)
       activesupport
       ruboty
-    ruboty-zoi (1.1.0)
-      ruboty
     slack-api (1.6.1)
       faraday (~> 0.11)
       faraday_middleware (~> 0.10.0)
@@ -145,7 +143,6 @@ DEPENDENCIES
   ruboty-slack_rtm
   ruboty-tenkijp
   ruboty-world_clock
-  ruboty-zoi
   travis
 
 BUNDLED WITH
