@@ -36,11 +36,14 @@ GEM
     launchy (2.4.3)
       addressable (~> 2.3)
     mem (0.1.5)
+    mini_portile2 (2.3.0)
     minitest (5.11.3)
     multi_json (1.13.1)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
@@ -55,6 +58,9 @@ GEM
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
+    ruboty-stock_price_jp (0.2.3)
+      nokogiri
+      ruboty
     slack-api (1.6.1)
       faraday (~> 0.11)
       faraday_middleware (~> 0.10.0)
@@ -89,6 +95,7 @@ PLATFORMS
 DEPENDENCIES
   ruboty
   ruboty-slack_rtm
+  ruboty-stock_price_jp
   travis
 
 BUNDLED WITH
