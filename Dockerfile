@@ -1,6 +1,8 @@
 FROM ruby:2.6.0-preview2
 ENV RUBYOPT="--jit"
 
+RUN apt update && apt install -y mecab mecab-ipadic
+
 RUN mkdir /ruboty
 WORKDIR /ruboty
 

@@ -9,6 +9,8 @@ GEM
     addressable (2.4.0)
     backports (3.11.3)
     concurrent-ruby (1.0.5)
+    domain_name (0.5.20180417)
+      unf (>= 0.0.5, < 1.0.0)
     dotenv (2.4.0)
     ethon (0.11.0)
       ffi (>= 1.3.0)
@@ -30,36 +32,75 @@ GEM
       net-http-persistent (~> 2.9)
       net-http-pipeline
     highline (1.7.10)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
+    ikku (0.1.4)
+      natto
+    jisx0402 (1.3.1)
+      msgpack
     json (2.1.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     mem (0.1.5)
-    mini_portile2 (2.3.0)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
     minitest (5.11.3)
+    msgpack (1.2.4)
     multi_json (1.13.1)
     multipart-post (2.0.0)
+    natto (1.1.1)
+      ffi (>= 1.9.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
+    netrc (0.11.0)
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    rest-client (2.0.2)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     ruboty (1.3.0)
       activesupport
       bundler
       dotenv
       mem
       slop
+    ruboty-alias (0.0.8)
+      ruboty (>= 1.1.1)
+    ruboty-delay (0.0.1)
+      ruboty
+    ruboty-echo (0.1.1)
+      ruboty
+    ruboty-fx (0.3.1)
+      rest-client
+    ruboty-kokodeikku (0.0.8)
+      ikku (>= 0.1.1)
+      ruboty
+    ruboty-kujibiki (0.2.1)
+      ruboty
+    ruboty-lgtm (0.0.3)
+      faraday
+      faraday_middleware
+      ruboty
+    ruboty-rainfall_jp (1.3.0)
+      ruboty
+    ruboty-roll (0.1.0)
+      ruboty
     ruboty-slack_rtm (3.1.0)
       faraday (~> 0.11)
       ruboty (>= 1.1.4)
       slack-api (~> 1.6)
       websocket-client-simple (~> 0.3.0)
-    ruboty-stock_price_jp (0.2.3)
-      nokogiri
+    ruboty-tenkijp (0.2.0)
+      tenkijp (= 0.2.0)
+    ruboty-world_clock (0.1.0)
+      activesupport
+      ruboty
+    ruboty-zoi (1.1.0)
       ruboty
     slack-api (1.6.1)
       faraday (~> 0.11)
@@ -67,6 +108,9 @@ GEM
       faye-websocket (~> 0.10.6)
       multi_json (~> 1.0, >= 1.0.3)
     slop (4.6.2)
+    tenkijp (0.2.0)
+      jisx0402
+      rest-client
     thread_safe (0.3.6)
     travis (1.8.8)
       backports
@@ -81,6 +125,9 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.5)
     websocket (1.2.8)
     websocket-client-simple (0.3.0)
       event_emitter
@@ -94,8 +141,19 @@ PLATFORMS
 
 DEPENDENCIES
   ruboty
+  ruboty-alias
+  ruboty-delay
+  ruboty-echo
+  ruboty-fx
+  ruboty-kokodeikku
+  ruboty-kujibiki
+  ruboty-lgtm
+  ruboty-rainfall_jp
+  ruboty-roll
   ruboty-slack_rtm
-  ruboty-stock_price_jp
+  ruboty-tenkijp
+  ruboty-world_clock
+  ruboty-zoi
   travis
 
 BUNDLED WITH
