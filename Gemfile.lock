@@ -82,6 +82,8 @@ GEM
       ruboty
     ruboty-fx (0.3.1)
       rest-client
+    ruboty-hitozuma (0.0.3)
+      ruboty
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
@@ -149,6 +151,7 @@ DEPENDENCIES
   ruboty-delay
   ruboty-echo
   ruboty-fx
+  ruboty-hitozuma
   ruboty-kokodeikku
   ruboty-kujibiki
   ruboty-lgtm
