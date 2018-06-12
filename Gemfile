@@ -7,6 +7,7 @@ gem 'ruboty-alias'
 gem 'ruboty-delay'
 gem 'ruboty-echo'
 gem 'ruboty-fx'
+gem 'ruboty-kokodeikku'
 gem 'ruboty-kujibiki'
 gem 'ruboty-lgtm'
 gem 'ruboty-rainfall_jp'
@@ -15,5 +16,6 @@ gem 'ruboty-tenkijp'
 gem 'ruboty-world_clock'
 
 group :development do
+  gem 'pry'
   gem 'travis'
 end

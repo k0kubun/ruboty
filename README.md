@@ -5,7 +5,9 @@ My configuration for [Ruboty](https://github.com/r7kamura/ruboty).
 ## Run
 
 ```
-SLACK_TOKEN=xxx bundle exec ruboty
+export LANG=C.UTF-8 # to parse mecab-ipadic-utf8
+export SLACK_TOKEN=xxx
+bundle exec ruboty
 ```
 
 ## Update Travis credentials
