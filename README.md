@@ -1,4 +1,4 @@
-# Ruboty [![Build Status](https://travis-ci.org/k0kubun/ruboty.svg?branch=master)](https://travis-ci.org/k0kubun/ruboty)
+# Ruboty
 
 My configuration for [Ruboty](https://github.com/r7kamura/ruboty).
 
