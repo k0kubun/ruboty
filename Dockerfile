@@ -1,4 +1,4 @@
-FROM ruby:2.6.0-preview2
+FROM k0kubun/ruby:2.6.0-preview2
 ENV RUBYOPT="--jit"
 ENV LANG=C.UTF-8
 
