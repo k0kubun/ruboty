@@ -67,8 +67,6 @@ GEM
       faraday
       faraday_middleware
       ruboty
-    ruboty-hitozuma (0.0.3)
-      ruboty
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
@@ -119,7 +117,6 @@ DEPENDENCIES
   ruboty-delay
   ruboty-echo
   ruboty-google_image
-  ruboty-hitozuma
   ruboty-kokodeikku
   ruboty-kujibiki
   ruboty-slack_rtm
@@ -127,4 +124,4 @@ DEPENDENCIES
   travis
 
 BUNDLED WITH
-   1.16.2
+   1.17.1
