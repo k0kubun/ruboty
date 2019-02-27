@@ -6,6 +6,7 @@ gem 'ruboty-slack_rtm'
 gem 'ruboty-delay'
 gem 'ruboty-echo'
 gem 'ruboty-google_image'
+gem 'ruboty-kokodeikku'
 gem 'ruboty-kujibiki'
 gem 'ruboty-world_clock'
 
