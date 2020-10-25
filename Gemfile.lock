@@ -8,6 +8,8 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.4.0)
     backports (3.11.3)
+    chrono (0.4.0)
+      activesupport
     coderay (1.1.2)
     concurrent-ruby (1.0.5)
     dotenv (2.4.0)
@@ -59,6 +61,10 @@ GEM
       dotenv
       mem
       slop
+    ruboty-cron (1.1.0)
+      activesupport
+      chrono
+      ruboty (>= 0.2.0)
     ruboty-delay (0.0.1)
       ruboty
     ruboty-echo (0.1.1)
@@ -118,6 +124,7 @@ PLATFORMS
 DEPENDENCIES
   pry
   ruboty
+  ruboty-cron
   ruboty-delay
   ruboty-echo
   ruboty-google_image

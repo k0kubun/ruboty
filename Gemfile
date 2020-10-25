@@ -4,6 +4,7 @@ gem 'ruboty'
 gem 'ruboty-slack_rtm'
 gem 'ruboty-json'
 
+gem 'ruboty-cron'
 gem 'ruboty-delay'
 gem 'ruboty-echo'
 gem 'ruboty-google_image'
