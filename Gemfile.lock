@@ -67,10 +67,14 @@ GEM
       faraday
       faraday_middleware
       ruboty
+    ruboty-json (0.1.0)
+      ruboty
     ruboty-kokodeikku (0.0.8)
       ikku (>= 0.1.1)
       ruboty
     ruboty-kujibiki (0.2.1)
+      ruboty
+    ruboty-scorekeeper (1.0.0)
       ruboty
     ruboty-slack_rtm (3.1.0)
       faraday (~> 0.11)
@@ -117,11 +121,13 @@ DEPENDENCIES
   ruboty-delay
   ruboty-echo
   ruboty-google_image
+  ruboty-json
   ruboty-kokodeikku
   ruboty-kujibiki
+  ruboty-scorekeeper
   ruboty-slack_rtm
   ruboty-world_clock
   travis
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
