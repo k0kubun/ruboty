@@ -37,7 +37,7 @@ GEM
       concurrent-ruby (~> 1.0)
     ikku (0.1.4)
       natto
-    json (2.1.0)
+    json (2.3.1)
     launchy (2.4.3)
       addressable (~> 2.3)
     mem (0.1.5)
