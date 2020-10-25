@@ -9,7 +9,7 @@ WORKDIR /ruboty
 
 COPY Gemfile /ruboty
 COPY Gemfile.lock /ruboty
-RUN bundle install -j$(nproc) --without development
+RUN bundle install -j$(nproc)
 
 COPY . /ruboty
 
