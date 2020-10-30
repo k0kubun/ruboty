@@ -1,5 +1,5 @@
-FROM k0kubun/ruby:2.6.1
-# ENV RUBYOPT="--jit"
+FROM k0kubun/ruby:2.7.2
+ENV RUBYOPT="--jit"
 ENV LANG=C.UTF-8
 
 RUN apt update && apt install -y mecab mecab-ipadic-utf8 libmecab-dev
