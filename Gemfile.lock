@@ -70,7 +70,7 @@ GEM
       ruboty
     ruboty-echo (0.1.1)
       ruboty
-    ruboty-ghibli (0.1.0)
+    ruboty-ghibli (0.1.1)
     ruboty-google_image (0.1.1)
       faraday
       faraday_middleware
